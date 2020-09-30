@@ -13,7 +13,7 @@ class Vector2d:
 
     def __repr__(self):
         class_name = type(self).__name__
-        rerurn '{}({!r}, {!r})'.format(class_name, *self)
+        return '{}({!r}, {!r})'.format(class_name, *self)
 
     def __str__(self):
         return str(tuple(self))
